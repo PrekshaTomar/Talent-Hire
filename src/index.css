@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* Header */
+.header {
+  background: #1e293b;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Container */
+.dashboard-container {
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Summary */
+.flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #e2e8f0;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background: #f1f5f9;
+}
+
+/* Priority Colors */
+.priority-badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.green {
+  background: #16a34a;
+}
+
+.yellow {
+  background: #eab308;
+}
+
+.orange {
+  background: #f97316;
+}
+
+.red {
+  background: #dc2626;
+}
+
+/* Drawer */
+.drawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 340px;
+  height: 100%;
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: -3px 0 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* 🔥 Smooth transitions everywhere */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for rows */
+tr {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+tr:hover {
+  transform: scale(1.01);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Button animation */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Drawer animation */
+.drawer {
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Card hover */
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Dark mode */
+.dark {
+  background: #0f172a;
+  color: white;
+}
+
+.dark table {
+  background: #1e293b;
+}
+
+.dark th {
+  background: #334155;
+}
+
+.dark td {
+  color: #e2e8f0;
+}
