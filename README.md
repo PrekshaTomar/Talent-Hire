@@ -1,6 +1,8 @@
 # TalentHire – Candidate Review Dashboard
 
 Video Link- https://drive.google.com/file/d/1cChH3QSz1a-4d2NgMJ1h-OayT5dxhiP3/view?usp=drivesdk
+Live - https://talenthiree.netlify.app/
+
 
 
 TalentHire is a modern hiring dashboard built to help recruiters efficiently evaluate, compare, and shortlist candidates based on multiple performance metrics.
